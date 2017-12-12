@@ -19,11 +19,15 @@ Pour construire l'image Docker on se place dans le dossier qui contient le Jar e
 
 docker build -f Dockerfile -t product-service
 
-![4ème capture](/Capture4.png?raw=true "Vérification que l'image est créée")
+Pour vérifier que le build s'est bien passé on exécute la commande : 
+
+docker images
+
+![3ème capture](/Capture4.png?raw=true "Vérification que l'image est créée")
 
 
 ## Exécuter l'image
 
 On exécute l'image à partir de l'invite de commande avec la commande "docker run product-service" (le nom de l'image varie selon le service à lancer).
 
-![5ème capture](/Capture6.png?raw=true "Lancer l'image")
+![4ème capture](/Capture6.png?raw=true "Lancer l'image")
